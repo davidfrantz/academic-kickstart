@@ -1,0 +1,12 @@
+---
+title: "Forest Disturbance Mapping Using Dense Synthetic Landsat/MODIS Time-Series and Permutation-Based Disturbance Index Detection"
+date: 2016-01-01
+publishDate: 2019-12-14T12:44:52.341134Z
+authors: ["David Frantz", "Achim Röder", "Thomas Udelhoven", "Michael Schmidt"]
+publication_types: ["2"]
+abstract: "Spatio-temporal information on process-based forest loss is essential for a wide range of applications. Despite remote sensing being the only feasible means of monitoring forest change at regional or greater scales, there is no retrospectively available remote sensor that meets the demand of monitoring forests with the required spatial detail and guaranteed high temporal frequency. As an alternative, we employed the Spatial and Temporal Adaptive Reflectance Fusion Model (STARFM) to produce a dense synthetic time series by fusing Landsat and Moderate Resolution Imaging Spectroradiometer (MODIS) nadir Bidirectional Reflectance Distribution Function (BRDF) adjusted reflectance. Forest loss was detected by applying a multi-temporal disturbance detection approach implementing a Disturbance Index-based detection strategy. The detection thresholds were permutated with random numbers for the normal distribution in order to generate a multi-dimensional threshold confidence area. As a result, a more robust parameterization and a spatially more coherent detection could be achieved. (i) The original Landsat time series; (ii) synthetic time series; and a (iii) combined hybrid approach were used to identify the timing and extent of disturbances. The identified clearings in the Landsat detection were verified using an annual woodland clearing dataset from Queensland’s Statewide Landcover and Trees Study. Disturbances caused by stand-replacing events were successfully identified. The increased temporal resolution of the synthetic time series indicated promising additional information on disturbance timing. The results of the hybrid detection unified the benefits of both approaches, i.e., the spatial quality and general accuracy of the Landsat detection and the increased temporal information of synthetic time series. Results indicated that a temporal improvement in the detection of the disturbance date could be achieved relative to the irregularly spaced Landsat data for sufficiently large patches."
+featured: false
+publication: "*Remote Sensing*"
+url_pdf: "https://www.mdpi.com/2072-4292/8/4/277/pdf"
+doi: "10.3390/rs8040277"
+---

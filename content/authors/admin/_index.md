@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: David Frantz
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,30 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Humboldt-Universität zu Berlin
+  url: "https://www.geographie.hu-berlin.de/en/professorships/eol/people/labmembers/david_frantz?_authenticator=3bf73ea8fd40237ad916f821ee760ef2999ca197"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: EO, ARD, FORCE, Data Science, Open Science
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Earth Observation
+- Data Science
+- Analysis Ready Data
+- Big Data Processing Workflows
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Remote Sensing
+    institution: Trier University, Trier, Germany
+    year: 2017
+  - course: Diploma (MSc) in Applied Environmenal Sciences
+    institution: Trier University, Trier, Germany
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,32 +42,38 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: "mailto:david.frantz@geo.hu-berlin.de"  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.de/citations?user=JtEWu3AAAAAJ
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/David_Frantz
+- icon: orcid
+  icon_pack: fab
+  link: http://orcid.org/0000-0002-9292-3931
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  link: https://github.com/davidfrantz
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/d__frantz
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am fascinated by the current posssibilities Earth Observation offers. Raised as an environmental scientist with a strong background in remote sensing and geoinformatics, my research concentrates on how to **"go from data to information"** tailored for a wide range of environmentally centered research and monitoring needs. This particularly includes the preprocessing of operational EO data archives to analysis ready data, their management in data cubes, subsequent processing via data reduction, interpolation, time series analysis, and data integration with complementary data sources, as well as data analysis based on statistics and machine learning.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I fully support open science. Thus, I am publishing all my software and methods as open source code: [FORCE]({{< ref "/code/force/index.md" >}}).
+
+I am currently a postdoctoral researcher in the [Earth Observation Lab of Humboldt-Universität zu Berlin](https://www.geographie.hu-berlin.de/en/professorships/eol) in the [MAT_STOCKS project](https://www.geographie.hu-berlin.de/en/professorships/eol/projects/matstocks/mat_stocks), where we aim at quantifying anthropogenic material stocks from S1/S2 data for various countries in the world (e.g. Germany, Japan, USA).
+
+

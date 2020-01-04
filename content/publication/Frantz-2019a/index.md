@@ -1,0 +1,14 @@
+---
+title: "FORCE—Landsat + Sentinel-2 Analysis Ready Data and Beyond"
+date: 2019-01-01
+publishDate: 2019-12-14T12:44:52.339432Z
+authors: ["David Frantz"]
+publication_types: ["2"]
+abstract: "Ever increasing data volumes of satellite constellations call for multi-sensor analysis ready data (ARD) that relieve users from the burden of all costly preprocessing steps. This paper describes the scientific software FORCE (Framework for Operational Radiometric Correction for Environmental monitoring), an ‘all-in-one’ solution for the mass-processing and analysis of Landsat and Sentinel-2 image archives. FORCE is increasingly used to support a wide range of scientific to operational applications that are in need of both large area, as well as deep and dense temporal information. FORCE is capable of generating Level 2 ARD, and higher-level products. Level 2 processing is comprised of state-of-the-art cloud masking and radiometric correction (including corrections that go beyond ARD specification, e.g., topographic or bidirectional reflectance distribution function correction). It further includes data cubing, i.e., spatial reorganization of the data into a non-overlapping grid system for enhanced efficiency and simplicity of ARD usage. However, the usage barrier of Level 2 ARD is still high due to the considerable data volume and spatial incompleteness of valid observations (e.g., clouds). Thus, the higher-level modules temporally condense multi-temporal ARD into manageable amounts of spatially seamless data. For data mining purposes, per-pixel statistics of clear sky data availability can be generated. FORCE provides functionality for compiling best-available-pixel composites and spectral temporal metrics, which both utilize all available observations within a defined temporal window using selection and statistical aggregation techniques, respectively. These products are immediately fit for common Earth observation analysis workflows, such as machine learning-based image classification, and are thus referred to as highly analysis ready data (hARD). FORCE provides data fusion functionality to improve the spatial resolution of (i) coarse continuous fields like land surface phenology and (ii) Landsat ARD using Sentinel-2 ARD as prediction targets. Quality controlled time series preparation and analysis functionality with a number of aggregation and interpolation techniques, land surface phenology retrieval, and change and trend analyses are provided. Outputs of this module can be directly ingested into a geographic information system (GIS) to fuel research questions without any further processing, i.e., hARD+. FORCE is open source software under the terms of the GNU General Public License v. >= 3, and can be downloaded from http://force.feut.de."
+featured: false
+publication: "*Remote Sensing*"
+url_pdf: "https://www.mdpi.com/2072-4292/11/9/1124/pdf"
+url_code: "http://force.feut.de"
+doi: "10.3390/rs11091124"
+---
+
