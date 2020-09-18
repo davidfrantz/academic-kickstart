@@ -39,7 +39,7 @@ tags:
 date: "2019-12-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: https://github.com/davidfrantz/force
 
 image:
   caption: ""
@@ -49,15 +49,15 @@ links:
 - icon: github
   icon_pack: fab
   name: Code
-  url: http://force.feut.de
+  url: https://github.com/davidfrantz/force
 - icon: user-cog
   icon_pack: fas
-  name: User Guide
-  url: https://www.researchgate.net/publication/328094593_FORCE_v_20_-_Technical_User_Guide
+  name: Documentation
+  url: https://force-eo.readthedocs.io/en/latest/
 - icon: jedi
   icon_pack: fas
   name: Tutorials
-  url: deadlink
+  url: https://davidfrantz.github.io/tutorials
 - icon: file-pdf
   icon_pack: fas
   name: Core paper
@@ -74,10 +74,6 @@ links:
   icon_pack: fab
   name: "#FORCE_EO"
   url: https://twitter.com/search?q=%23FORCE_EO&src=typed_query
-- icon: twitter
-  icon_pack: fab
-  name: "Follow"
-  link: https://twitter.com/d__frantz
 - icon: researchgate
   icon_pack: fab
   name: Follow
@@ -94,28 +90,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
-**FORCE** is an all-in-one solution for the mass-processing of selected medium-resolution satellite image archives to enable large area + time series applications. Currently supported are Landsat 4/5 TM, Landsat 7 ETM+, Landsat 8 OLI and Sentinel-2 A/B MSI. The software is capable of processing Level 1 products as obtained from the space agencies to Level 2–4 products.
-
-## Download
-
-**this here is a test.**
-
-**FORCE** may be used and downloaded for **free**! It is completely open source and there are no restrictions on usage (for details see [GPL License](http://www.gnu.org/licenses/)).
-
-The current version (2.1) can be downloaded from  [Trier University](http://force.feut.de) after a short self-registration.
-
-> *However, it is requested that you to use the software in accordance with academic standards and fair usage. Without this, software like _FORCE_ will not survive. This includes citation of the software and the scientific publications, proper acknowledgement in any public presentation, or an offer of co-authorship of scientific articles in case substantial help in setting up, modifying or running the software is provided. At minimum, the citation of the* [*key paper*]({{< ref "publication/Frantz-2019a/index.md">}}) *is requested.*
-
-
-## The main features are
-
-- Integration of Landsat 4–8, and Sentinel-2 A/B as Virtual Constellation.
-- Data management of Landsat and Sentinel-2 Level 1 data + Download of Sentinel-2 data.
-- Near-realtime (NRT) processing capability.
-- Generation of Analysis Ready Data (ARD). Advanced cloud and cloud shadow detection. Quality screening. Integrated atmospheric and topographic correction: one algorithm for all sensors. Adjacency effect correction. BRDF reduction. Resolution merge of Sentinel-2 bands: 20m --> 10m. Data cubing: reprojection / gridding.
-- Generation of highly Analysis Ready Data (hARD). Large area. Gap free. Best Available Pixel (BAP) composites. Phenology Adaptive Composites (PAC). Spectral Temporal Metrics (STM). Ideal input for your Machine Learners!
-- Generation of highly Analysis Ready Data plus (hARD+). Time Series generation: spectral bands, spectral indices, Spectral Mixture Analysis (SMA). Time series folding. Time series interpolation. Time series statistics. Trend analysis. Change, Aftereffect, Trend (CAT) analysis. Land Surface Phenology (LSP).
-- Detailed data mining of the Clear Sky Observation (CSO) availability.
-- Data Fusion. Improving spatial resolution of coarse continuous fields: MODIS LSP --> medium resolution LSP. Improving spatial resolution of lower resolution ARD using higher resolution ARD: 30m Landsat --> 10m using Sentinel-2 targets
 

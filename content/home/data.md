@@ -28,6 +28,10 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
+    name = "2020"
+    tag = "2020"
+
+  [[content.filter_button]]
     name = "2019"
     tag = "2019"
 

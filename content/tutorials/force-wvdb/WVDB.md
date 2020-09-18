@@ -1,26 +1,28 @@
 ---
 title: "FORCE Tutorial: Water Vapor Database"
 subtitle: "Prepare the Water Vapor Database for Level 2 Processing"
-summary: "This tutorial will show how to prepare the Water Vapor Database (WVDB) for the **FORCE Level 2 Processing System (FORCE L2PS)**."
+summary: "This tutorial will show how to prepare the Water Vapor Database (WVDB) for the FORCE Level 2 Processing System (FORCE L2PS)."
 tags:
 - 2019
 - FORCE
+- Lower Level
+- Tutorial
 date: 2019-12-16T00:00:00.0Z
 ---
 
 *This tutorial uses FORCE v. 3.0*
 
-## Learning Objective
+## **Learning Objective**
 This tutorial will show how to prepare the Water Vapor Database (WVDB) for the **FORCE Level 2 Processing System (FORCE L2PS)**.
 
-## Background
+## **Background**
 During atmospheric correction, the effect of water vapor absorption can only be corrected if we know the amount of water vapor in the atmosphere. 
 
 If you are using Sentinel-2 data only, you can stop reading. Sentinel-2 is equipped with a water vapor channel, and thus, water wapor amount can be estimated from the images.
 
 Landsat, however, doesn't have such a band. Therefore, we need to rely on external data, which needs to be precompiled into a water vapor database.
 
-## Water Vapor Database
+## **Water Vapor Database**
 The database holds water vapor values for the central coordinates of each WRS-2 frame. If available, day-specific values are used. 
 
 The database consists of one table for each day (`WVP_YYYY-MM-DD.txt`) 
@@ -90,7 +92,7 @@ head /data/Earth/global/wvp/wvdb/WVP_2010-07-26.txt
     -53.6847 70.9100 9999.000000 TBD
 
 
-## Climatology
+## **Climatology**
 If day-specific values are not available (no table is existing, or there is a fill value), a monthly long-term climatology is used instead. The climatology consists of one table for each month (`WVP_0000-MM-00.txt`).
 
 
@@ -140,16 +142,20 @@ head /data/Earth/global/wvp/wvdb/WVP_0000-07-00.txt
 
 {{< figure library="true" src="wvdb.gif" width="750" title="Global animation of the climatology (monthly average)" lightbox="true" >}}
 
-## Uncertainty of the climatology
+### **Uncertainty of the climatology**
 The uncertainty of using the climatology was assessed in this paper:
 Frantz, D., Stellmes, M., & Hostert, P. (2019). A Global MODIS Water Vapor Database for the Operational Atmospheric Correction of Historic and Recent Landsat Imagery. Remote Sensing, 11, 257. https://doi.org/10.3390/rs11030257
 
-## Prepare the WVDB
+## **Prepare the WVDB**
 We generally use a WVDB generated from MODIS water vapor products ([MOD05 and MYD05](https://modis.gsfc.nasa.gov/data/dataprod/mod05.php)).
-### Download the ready-to-go global WVDB
+### **Download the ready-to-go global WVDB**
 You should start by downloading the pre-compiled WVDB with global coverage from [here](doi.pangaea.de/10.1594/PANGAEA.893109). This saves you a lot of processing. This freely available dataset was generated with the **FORCE WVDB** component, and is comprised of daily global water vapor data for February 2000 to July 2018 for each land-intersecting WRS-2 scene (13281 coordinates), as well as a monthly climatology that can be used if no daily value is available.
-### Generate the WVDB on your own
-We try to update this dataset in regular intervals. However, if you are in need of more up-to-date data, you can use the **FORCE WVDB** component to generate/update these tables on your own. **FORCE WVDB** needs a table with input coordinates (center coordinates of WRS-2 frames). The [pre-compiled dataset](doi.pangaea.de/10.1594/PANGAEA.893109) includes such a table. If you are not interested in global coverage, you can subset this file. The file should contain two columns separated by white space, and no header. The first column should give the longitude (X), the second column the latitude (Y) with coordinates in decimal degree (negative values for West/South). Any other column is ignored (in the example below, the WRS-2 Path/Row is in the third column).
+### **Generate the WVDB on your own**
+We try to update this dataset in regular intervals. However, if you are in need of more up-to-date data, you can use the **FORCE WVDB** component to generate/update these tables on your own. 
+
+*Please note that you need access to the LAADS DAAC before using this tool (see last section on this page).*
+
+**FORCE WVDB** needs a table with input coordinates (center coordinates of WRS-2 frames). The [pre-compiled dataset](doi.pangaea.de/10.1594/PANGAEA.893109) includes such a table. If you are not interested in global coverage, you can subset this file. The file should contain two columns separated by white space, and no header. The first column should give the longitude (X), the second column the latitude (Y) with coordinates in decimal degree (negative values for West/South). Any other column is ignored (in the example below, the WRS-2 Path/Row is in the third column).
 
 
 ```bash
@@ -227,3 +233,12 @@ Use GNU parallel to download an entire month in 31 parallel processes. This work
 ```bash
 seq -w 1 31 | parallel -j31 force-lut-modis /data/Earth/global/wvp/wvdb/wrs-2-land.coo /data/Earth/global/wvp/wvdb /data/Earth/global/wvp/geo /data/Earth/global/wvp/hdf 2010 07 {} 2010 07 {}
 ```
+
+
+## **Get access to the LAADS DAAC** *(edit 13.02.2020)*
+
+You need authentification to download data from the LAADS DAAC. This works by requesting an App Key from [NASA Earthdata](https://ladsweb.modaps.eosdis.nasa.gov/tools-and-services/data-download-scripts/#requesting). You can make this key available to **FORCE** by putting the character string in a file `.laads` in your home directory. With this, you should be able to download data.
+
+
+
+
