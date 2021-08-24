@@ -26,7 +26,15 @@ subtitle = ""
   [[content.filter_button]]
     name = "All"
     tag = "*"
-  
+
+  [[content.filter_button]]
+    name = "Upcoming"
+    tag = "upcoming"
+
+  [[content.filter_button]]
+    name = "2021"
+    tag = "2021"
+
   [[content.filter_button]]
     name = "2020"
     tag = "2020"

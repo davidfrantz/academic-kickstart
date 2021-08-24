@@ -9,6 +9,9 @@ featured: false
 publication: "*Remote Sensing*"
 url_pdf: "https://www.mdpi.com/2072-4292/11/3/232/pdf"
 url_dataset: "https://doi.pangaea.de/10.1594/PANGAEA.897547"
+links:
+ -  name: Webmap
+    url: "https://ows.geo.hu-berlin.de/webviewer/turkey-cropping/index.html"
 doi: "10.3390/rs11030232"
 ---
 

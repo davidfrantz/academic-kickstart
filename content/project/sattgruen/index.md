@@ -2,7 +2,7 @@
 title: SattGrün
 summary:  "Role: Associated"
 tags:
-- running
+- completed
 date: "2018-01-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

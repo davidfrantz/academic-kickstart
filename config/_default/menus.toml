@@ -38,10 +38,10 @@
   url = "#software"
   weight = 50
 
-[[main]]
-  name = "Tutorials"
-  url = "#tutorials"
-  weight = 55
+#[[main]]
+#  name = "Tutorials"
+#  url = "#tutorials"
+#  weight = 55
 
 [[main]]
   name = "Contact"

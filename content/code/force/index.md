@@ -57,7 +57,7 @@ links:
 - icon: jedi
   icon_pack: fas
   name: Tutorials
-  url: https://davidfrantz.github.io/tutorials
+  url: https://force-eo.readthedocs.io/en/latest/howto/index.html
 - icon: file-pdf
   icon_pack: fas
   name: Core paper

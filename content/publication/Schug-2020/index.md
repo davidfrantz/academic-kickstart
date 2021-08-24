@@ -8,6 +8,13 @@ abstract: "The increasing impact of humans on land and ongoing global population
 featured: false
 publication: "*Remote Sensing of Environment*"
 url_pdf: "http://www.sciencedirect.com/science/article/pii/S0034425720301802"
+links:
+ -  name: Dataset 1
+    url: "https://doi.pangaea.de/10.1594/PANGAEA.920894"
+ -  name: Dataset 2
+    url: "https://doi.pangaea.de/10.1594/PANGAEA.923037"
+ -  name: Webmap
+    url: "https://www2.hu-berlin.de/geovis/eolab/landcover/lc.html"
 doi: "https://doi.org/10.1016/j.rse.2020.111810"
 ---
 
