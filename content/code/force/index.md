@@ -69,7 +69,7 @@ links:
 - icon: envelope
   icon_pack: fas
   name: Contact
-  url: mailto:david.frantz@geo.hu-berlin.de
+  url: mailto:david.frantz@uni.trier.de
 - icon: twitter
   icon_pack: fab
   name: "#FORCE_EO"

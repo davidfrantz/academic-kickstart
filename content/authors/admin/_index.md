@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Researcher
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: Humboldt-Universität zu Berlin
-  url: "https://www.geographie.hu-berlin.de/en/professorships/eol/people/labmembers/david_frantz?_authenticator=3bf73ea8fd40237ad916f821ee760ef2999ca197"
+- name: Trier University
+  url: "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-vi/faecher/kartographie/personal/frantz"
 
 # Short bio (displayed in user profile at end of posts)
 bio: EO, ARD, FORCE, Data Science, Open Science
@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:david.frantz@geo.hu-berlin.de"  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:david.frantz@uni.trier.de"  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.de/citations?user=JtEWu3AAAAAJ
@@ -74,6 +74,4 @@ I am fascinated by the current posssibilities Earth Observation offers. Raised a
 
 I fully support open science. Thus, I am publishing all my software and methods as open source code: [FORCE]({{< ref "/code/force/index.md" >}}).
 
-I am currently a postdoctoral researcher in the [Earth Observation Lab of Humboldt-Universität zu Berlin](https://www.geographie.hu-berlin.de/en/professorships/eol) in the [MAT_STOCKS project](https://www.geographie.hu-berlin.de/en/professorships/eol/projects/matstocks/mat_stocks), where we aim at quantifying anthropogenic material stocks from S1/S2 data for various countries in the world (e.g. Germany, Japan, USA) - as well as in the [FONDA CRC](https://fonda.hu-berlin.de/), where we will focus on data analysis workflows.
-
-
+I am Assistant Professor for Geoinformatics - Spatial Data Science at Trier University, where we are focusing on Earth Observation data-centered aspects.

@@ -18,12 +18,27 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Assistant Professor"
+  company = "Geoinformatics - Spatial Data Science, Trier University"
+  company_url = "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-vi/faecher/kartographie"
+  location = "Trier, Germany"
+  date_start = "2021-09-01"
+  date_end = ""
+  #description = """
+  #Responsibilities include:
+  #
+  #* Analysing
+  #* Modelling
+  #* Deploying
+  #"""
+
+[[experience]]
   title = "PostDoc"
   company = "Earth Observation Lab, Humboldt-Universität zu Berlin"
   company_url = "https://www.geographie.hu-berlin.de/en/professorships/eol"
   location = "Berlin, Germany"
   date_start = "2017-11-01"
-  date_end = ""
+  date_end = "2021-08-31"
   #description = """
   #Responsibilities include:
   #

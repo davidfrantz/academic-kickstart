@@ -85,16 +85,16 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "david.frantz@geo.hu-berlin.de"
-phone = "+49 (0)30 2093-6883"
+email = "david.frantz@uni-trier.de"
+phone = "+49 (0)651 201-4592"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Postal address: Humboldt-Universität zu Berlin, Geography Department, Unter den Linden 6, D-10099 Berlin, Germany +++ Office address: Rudower Chaussee 16, 12489 Berlin, Germany"}
+address = {street = "Postal address: Universität Trier, Geoinformatics - Spatial Data Science, Campus II / Geozentrum, Behringstr. 15, 54296 Trier, Germany"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "52.432408",  longitude = "13.533645"}
+coordinates = {latitude = "49.748183",  longitude = "6.675501"}
 
 # Directions for visitors to locate you.
 directions = ""
@@ -109,7 +109,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  #{icon = "envelope", icon_pack = "fas", name = "david.frantz@geo.hu-berlin.de", link = "mailto:david.frantz@geo.hu-berlin.de"},
+  #{icon = "envelope", icon_pack = "fas", name = "david.frantz@uni.trier.de", link = "mailto:david.frantz@uni.trier.de"},
   #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/d__frantz"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
