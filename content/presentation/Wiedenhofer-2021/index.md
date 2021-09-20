@@ -4,7 +4,7 @@ summary: "Dominik Wiedenhofer, Franz Schug, David Frantz, Doris Virág, André B
 tags:
 - submitted
 date: 2021-09-17T14:37:00.0Z
-external_link: "https://www.ecobalanceconference.org/conference/2020/index.html"
+external_link: "https://www.sbe22.berlin/"
 ---
 
 Dominik Wiedenhofer, Franz Schug, David Frantz, Doris Virág, André Baumgart, Sebastian van der Linden, Patrick Hostert, Helmut Haberl
