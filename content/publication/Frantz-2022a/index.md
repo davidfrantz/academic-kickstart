@@ -1,6 +1,6 @@
 ---
 title: "Revisiting the past: Replicability of a historic long-term vegetation dynamics assessment in the era of big data analytics"
-date: 2021-01-26
+date: 2022-01-26
 publishDate: 2022-01-26T08:40:00.0Z
 authors: [ "David Frantz", "Patrick Hostert", "Philippe Rufin", "Stefan Ernst", "Achim Röder", "Sebastian van der Linden" ]
 publication_types: ["2"]
