@@ -1,5 +1,5 @@
 ---
-title: BLACKMAP II: Mapping Hazelnut Plantations in Azerbaijan and Georgia
+title: BLACKMAP II - Mapping Hazelnut Plantations in Azerbaijan and Georgia
 summary:  "Role: PI"
 tags:
 - running

@@ -1,5 +1,5 @@
 ---
-title: LuxSoil2022: Satellitengestützte Ableitung von Bodeneigenschaften in Luxemburg
+title: LuxSoil2022 - Satellitengestützte Ableitung von Bodeneigenschaften in Luxemburg
 summary:  "Role: PI"
 tags:
 - completed
