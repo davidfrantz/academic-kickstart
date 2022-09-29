@@ -2,7 +2,7 @@
 title: LuxSoil2022: Satellitengestützte Ableitung von Bodeneigenschaften in Luxemburg
 summary:  "Role: PI"
 tags:
-- running
+- completed
 date: "2022-01-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
