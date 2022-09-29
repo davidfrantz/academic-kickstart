@@ -1,5 +1,5 @@
 ---
-title: BLACKMAP I
+title: BLACKMAP: Mapping Hazelnut Plantations in the Turkish Black Sea Region
 summary:  "Role: PI"
 tags:
 - completed

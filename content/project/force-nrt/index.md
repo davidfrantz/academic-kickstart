@@ -1,5 +1,5 @@
 ---
-title: FORCE NRT
+title: Near-Real Time Derivation of Land Surface Phenoogy using Sentinel Data: the FORCE-NRT approach
 summary:  "Role: PI / PostDoc"
 tags:
 - completed

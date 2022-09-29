@@ -1,5 +1,5 @@
 ---
-title: FORCE data cube on CODE-DE
+title: FORCE Data Cube Collection 1 on CODE-DE
 summary:  "Role: PI"
 tags:
 - running

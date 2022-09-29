@@ -1,5 +1,5 @@
 ---
-title: FONDA
+title: FONDA: Foundations of Workflows for Large-Scale Scientific Data Analysis
 summary:  "Role: PostDoc"
 tags:
 - completed

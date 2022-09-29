@@ -1,5 +1,5 @@
 ---
-title: MAT_STOCKS
+title: MAT_STOCKS - Understanding the Role of Material Stock Patterns for the Transformation to a Sustainable Society
 summary:  "Role: PostDoc"
 tags:
 - completed
