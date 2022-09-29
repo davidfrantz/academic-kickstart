@@ -2,7 +2,7 @@
 title: MAT_STOCKS
 summary:  "Role: PostDoc"
 tags:
-- running
+- completed
 date: "2018-11-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

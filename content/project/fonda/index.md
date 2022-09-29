@@ -2,7 +2,7 @@
 title: FONDA
 summary:  "Role: PostDoc"
 tags:
-- running
+- completed
 date: "2020-07-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
