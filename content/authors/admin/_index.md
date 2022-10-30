@@ -15,7 +15,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
 - name: Trier University
-  url: "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-vi/faecher/kartographie/personal/frantz"
+  url: "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-vi/faecher/erdbeobachtung-und-klimaprozesse/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: EO, ARD, FORCE, Data Science, Open Science
@@ -74,4 +74,4 @@ I am fascinated by the current posssibilities Earth Observation offers. Raised a
 
 I fully support open science. Thus, I am publishing all my software and methods as open source code: [FORCE]({{< ref "/code/force/index.md" >}}).
 
-I am Assistant Professor for Geoinformatics - Spatial Data Science at Trier University, where we are focusing on Earth Observation data-centered aspects.
+I am Assistant Professor for Geoinformatics - Spatial Data Science at Trier University's Earth Observation and Climate Processes department, where I am focusing on Earth Observation from a data-centric perspective.

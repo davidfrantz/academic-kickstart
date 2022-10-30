@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Assistant Professor"
   company = "Geoinformatics - Spatial Data Science, Trier University"
-  company_url = "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-vi/faecher/kartographie"
+  company_url = "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-vi/faecher/erdbeobachtung-und-klimaprozesse/team/jprof-dr-d-frantz"
   location = "Trier, Germany"
   date_start = "2021-09-01"
   date_end = ""
