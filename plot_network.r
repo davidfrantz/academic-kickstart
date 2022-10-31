@@ -10,20 +10,66 @@ bib_len  <- length(bib_list)
 bib <- ReadBib(bib_list[1], check = FALSE)
 for (i in 2:bib_len) bib <- c(bib, ReadBib(bib_list[i], check = FALSE))
 
+
 geotag <- bib %>%
   sapply(function(x)x$geo) %>% 
-  strsplit(" and ") %>% 
+  strsplit(" and ")
+
+author <- bib %>% sapply(function(x)x$author)
+
+
+# link authors and geo
+author_geo <- vector("list", bib_len)
+
+for (i in 1:bib_len){
+
+  author_geo[[i]] <- vector("list", length(author[[i]]))
+  for (a in 1:length(author[[i]])){
+    author_geo[[i]][[a]]$author <- author[[i]][a]
+  }
+  
+  for (g in 1:length(geotag[[i]])){
+    geo     <- gsub(" \\([1-9].*", "", geotag[[i]][g])
+    auth_id <- gsub(".* \\((.*)\\)", "\\1", geotag[[i]][g]) %>%
+      strsplit(", ") %>%
+      unlist() %>%
+      as.integer()
+    for (j in 1:length(auth_id)){
+      author_geo[[i]][[auth_id[j]]]$geo <- c(
+        author_geo[[i]][[auth_id[j]]]$geo,
+        geo
+      )
+    }
+  }
+}
+
+
+# delete myself
+for (i in 1:bib_len){
+  me_pos <- sapply(
+      author_geo[[i]], 
+      function(x)x$author$family
+    ) %>% 
+    grep("Frantz", .)
+  author_geo[[i]] <- author_geo[[i]][-me_pos]
+}
+
+del_pos <- which(sapply(author_geo, length) == 0)
+if (length(del_pos) > 0) author_geo <- author_geo[-del_pos]
+
+
+# extract geotag
+###########################################
+
+geotag <- sapply(author_geo, 
+       sapply,
+       function(x)x$geo
+     ) %>%
   unlist()
 
-city <- geotag %>%
-  gsub(" \\([1-9].*", "", .)
 
-n <- geotag %>%
-  gsub(".* \\((.*)\\)", "\\1", .) %>%
-  strsplit(", ") %>%
-  sapply(length)
 
-geonet <- data.frame(city = city, n = n) %>%
+geonet <- data.frame(city = city, n = 1) %>%
   group_by(city) %>%
   summarise(n = sum(n))
 
