@@ -4,6 +4,7 @@ summary:  "Map of material stocks in buildings and infrastructure across Germany
 tags:
   - ows
   - Germany
+  - Austria
   - Europe
 date: "2021-02-05T00:00:00Z"
 
