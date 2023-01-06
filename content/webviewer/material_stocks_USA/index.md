@@ -1,6 +1,6 @@
 ---
 title: Material Stocks, USA
-summary:  "Map of material stocks in buildings and infrastructure across CONUS at a spatial resolution of 10m.
+summary:  "Map of material stocks in buildings and infrastructure across CONUS at a spatial resolution of 10m."
 tags:
 date: "2023-06-01T00:00:00Z"
 
