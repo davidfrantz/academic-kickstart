@@ -14,34 +14,39 @@
   weight = 10
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
+  name = "Software"
+  url = "#software"
+  weight = 20
 
 [[main]]
   name = "Publications"
   url = "#publications"
-  weight = 40
+  weight = 25
 
 [[main]]
   name = "Presentations"
   url = "#presentations"
-  weight = 45
+  weight = 30
 
 [[main]]
   name = "Data"
   url = "#data"
-  weight = 47
+  weight = 35
 
 [[main]]
-  name = "Software"
-  url = "#software"
-  weight = 50
+  name = "Webviewer"
+  url = "#webviewer"
+  weight = 40
 
 #[[main]]
 #  name = "Tutorials"
 #  url = "#tutorials"
 #  weight = 55
+
+[[main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 50
 
 [[main]]
   name = "Contact"
