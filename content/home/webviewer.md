@@ -43,7 +43,7 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "TUR"
-    tag = "Turkye"
+    tag = "Türkiye"
   
 
 [design]

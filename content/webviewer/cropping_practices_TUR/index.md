@@ -1,9 +1,9 @@
 ---
-title: Turkey - Cropping Practices
-summary:  "Map of five different cropping management practices across the entire Turkey at 30m resolution (year: 2015)."
+title: Cropping Practices, Türkiye
+summary:  "Map of five different cropping management practices across the entire Türkiye at 30m resolution (year: 2015)."
 tags:
   - ows
-  - Turkye
+  - Türkiye
   - Europe
 date: "2019-01-23T00:00:00Z"
 

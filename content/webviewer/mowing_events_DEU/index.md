@@ -1,5 +1,5 @@
 ---
-title: Mowing Events
+title: Mowing Events, Germany
 summary:  "Mowing events derived from integrated Landsat 8 and Sentinel-2 time series at a spatial resolution of 10 m for the years 2017 - 2020."
 tags:
   - ows
