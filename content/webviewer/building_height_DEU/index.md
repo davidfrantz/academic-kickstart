@@ -2,6 +2,7 @@
 title: Building Height, Germany
 summary:  "Map of building heights at a spatial resolution of 10m for the entire Germany (year: 2018)."
 tags:
+  - ows
 date: "2023-06-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
