@@ -25,13 +25,25 @@ subtitle = ""
     name = "All"
     tag = "*"
   
-  #[[content.filter_button]]
-  #  name = "Running"
-  #  tag = "running"
+  [[content.filter_button]]
+    name = "DEU"
+    tag = "Germany"
 
-  #  [[content.filter_button]]
-  #  name = "Completed"
-  #  tag = "completed"
+  [[content.filter_button]]
+    name = "AUT"
+    tag = "Austria"
+  
+  [[content.filter_button]]
+    name = "USA"
+    tag = "USA"
+  
+  [[content.filter_button]]
+    name = "GRE"
+    tag = "Greece"
+  
+  [[content.filter_button]]
+    name = "TUR"
+    tag = "Turkye"
   
 
 [design]
