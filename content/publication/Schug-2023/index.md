@@ -10,7 +10,7 @@ publication: "*Data in Brief*"
 url_pdf: "https://www.sciencedirect.com/science/article/pii/S2352340923001154/pdfft?isDTMRedir=true&download=true"
 links:
  -  name: Dataset
-    url: "https://www.sciencedirect.com/science/article/pii/S2352340923001154"
+    url: "https://zenodo.org/record/7195101#.Y_xhlHbMKUk"
 doi: "https://doi.org/10.1016/j.dib.2023.108997"
 ---
 
