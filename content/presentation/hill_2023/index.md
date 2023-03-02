@@ -4,7 +4,7 @@ summary: "Joachim Hill, Henning Buddenbaum, Andreas Hill, David Frantz @ Coperni
 tags:
 - 2023
 date: 2023-01-17T00:00:00.0Z
-external_link: ""
+external_link: https://netzwerk-wald.d-copernicus.de/online-seminare/
 ---
 
 Joachim Hill, Henning Buddenbaum, Andreas Hill, David Frantz
