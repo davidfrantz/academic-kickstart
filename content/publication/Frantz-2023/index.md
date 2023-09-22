@@ -10,7 +10,7 @@ publication: "*Remote Sensing of Environment*"
 url_pdf: "https://www.sciencedirect.com/science/article/pii/S0034425723003747/pdfft?md5=2b4bfdfe6bc7e0479568a95af37b8338&pid=1-s2.0-S0034425723003747-main.pdf"
 url_dataset: "https://zenodo.org/record/8096599"
 links:
- -  name: code
+ -  name: Code
     url: "https://github.com/davidfrantz/stm-consistency"
 doi: "https://doi.org/10.1016/j.rse.2023.113823"
 ---
