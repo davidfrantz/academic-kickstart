@@ -1,21 +1,5 @@
 ---
 title: Publications
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 1
-
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
----
-
----
-title: Publications
 summary: For an up-to-date list of my publications, see https://geoinformatics.gitlab-pages.uni-trier.de/publications/Frantz.html
 tags: ""
 date: "2023-12-15T00:00:00Z"
