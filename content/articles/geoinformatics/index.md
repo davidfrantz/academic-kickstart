@@ -7,9 +7,5 @@ date: "2023-12-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://geoinformatics.gitlab-pages.uni-trier.de/publications/Frantz.html
-
-image:
-  caption: "GI-SDS Logo"
-  focal_point: Smart
 ---
 
